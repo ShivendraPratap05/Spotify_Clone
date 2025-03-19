@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="download.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Favourire Songs - For you..</h1>
+            <div>
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Dekha Ek Khwab</span>
+                    <span class="songListPlay"><span class="timestamp">05:20 <i id=0 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover2.jpg" alt="1">
+                    <span class="songName">Bewajah</span>
+                    <span class="songListPlay"><span class="timestamp">05:08 <i id=1 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover3.jpg" alt="1">
+                    <span class="songName">Tu Chale Sang</span>
+                    <span class="songListPlay"><span class="timestamp">05:08 <i id=2 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover4.jpg" alt="1">
+                    <span class="songName">Ye Fitoor</span>
+                    <span class="songListPlay"><span class="timestamp">02:54 <i id=3 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover5.jpg" alt="1">
+                    <span class="songName">O Mere Dil Ke Chain</span>
+                    <span class="songListPlay"><span class="timestamp">04:35 <i id=4 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover6.jpg" alt="1">
+                    <span class="songName">Girl I Need You</span>
+                    <span class="songListPlay"><span class="timestamp">04:56 <i id=5 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover7.jpg" alt="1">
+                    <span class="songName">Jeena Jeena</span>
+                    <span class="songListPlay"><span class="timestamp">03:45 <i id=6 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover8.jpg" alt="1">
+                    <span class="songName">Ankho Se Batana</span>
+                    <span class="songListPlay"><span class="timestamp">03:58 <i id=7 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover9.jpg" alt="1">
+                    <span class="songName">Ruby Ruby Ruby</span>
+                    <span class="songListPlay"><span class="timestamp">06:08 <i id=8 class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div> Made By:- Shivendra Pratap Singh
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="far fa-3x fa-step-backward " id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="far fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="audio-8777_256.gif" width="42px" alt="" id="gif"><span id="masteSongName">Playing Song....</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3b40edc191.js" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
